@@ -3,7 +3,13 @@
 function Page_home(){
     return(
         <div className="container">
-            <div className="Home"><h1>หน้าแรก</h1></div>
+            <div className="Home">
+                
+                <p className="text-center">
+                    <h1>หน้าแรก</h1>
+                    จัดทำโดย. นายธีระพงษ์ ทาอิน
+                </p>
+            </div>
         </div>
     );
 }
