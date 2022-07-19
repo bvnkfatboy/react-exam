@@ -6,11 +6,13 @@ function Page_button(){
     const [counter, setCounter] = useState(0);
     const inserts = () => {
         setCounter(count => count + 1);
-      };
+    };
      
-      const deletes = () => {
-        setCounter(count => count - 1);
-      };
+    const deletes = () => {
+        if (counter != 0 ){
+            setCounter(count => count - 1);
+        }
+    };
 
     return(
         <div className="container">
