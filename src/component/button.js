@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Page_button(){
     const [num, setNum] = useState(0);
-    const [primeR, setPrime] = useState("");
+    const [primeR, setPrime] = useState("กดคลิกเพิ่ม หรือ ลด");
 
     function AddPrimeNumber() {
       let prime = true;
