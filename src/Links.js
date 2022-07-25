@@ -20,8 +20,9 @@ function Links(){
           <div className="navbar">
             <ul>
                 <li><Link style={{ textDecoration: 'none',color:"black" }} to="/">หน้าแรก</Link></li>
-                <li><Link style={{ textDecoration: 'none',color:"black" }} to="/Name">งาน React ที่ 1 (สุ่มชื่อ)</Link></li>
-                <li><Link style={{ textDecoration: 'none',color:"black" }} to="/Botton">งาน React ที่ 2 (ปุ่ม)</Link></li>
+                <li><Link style={{ textDecoration: 'none',color:"black" }} to="/Botton">งาน React ที่ 1 (ปุ่ม)</Link></li>
+                <li><Link style={{ textDecoration: 'none',color:"black" }} to="/Name">งาน React ที่ 2 (สุ่มชื่อ)</Link></li>
+
             </ul>
           </div>
     
