@@ -22,9 +22,9 @@ function Page_name(){
     return(
         <div className="container">
             <div className="Name">
-                <p className="text-center">ขนะนี้เวลา <br/>
-                <p id="time">{time}<p>{user[count]}</p> </p>
-                
+                <p id="time" className="text-center">
+                  ขนะนี้เวลา <br/>
+                  {time} <br/> {user[count]}
                 </p>
             </div>
         </div>
