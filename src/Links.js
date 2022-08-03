@@ -3,19 +3,6 @@ import './component/css/style.css'
 function Links(){
     return (
         <>
-          {/* <nav>
-            <ul>
-              <li>
-                <Link to="/">หน้าแรก</Link>
-              </li>
-              <li>
-                <Link to="/Name">Blogs</Link>
-              </li>
-              <li>
-                <Link to="/Botton">Botton</Link>
-              </li>
-            </ul>
-          </nav> */}
 
           <div className="navbar">
             <ul>
